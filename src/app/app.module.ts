@@ -1,7 +1,7 @@
+//Mudules
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import { NewsApiService } from "./services/news-api.service";
+import { HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import {
   MatButtonModule,
@@ -13,6 +13,10 @@ import {
   MatListModule
 } from "@angular/material";
 
+//Services
+import { NewsApiService } from "./services/news-api.service";
+
+//Components
 import { AppComponent } from "./app.component";
 
 @NgModule({
@@ -20,7 +24,7 @@ import { AppComponent } from "./app.component";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    HttpClient,
+    HttpClientModule,
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
