@@ -34,7 +34,16 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^8.9.5",
+    "@typescript-eslint/eslint-plugin": "^1.1.0",
+    "@typescript-eslint/parser": "^1.1.0",
+    "acorn": "^6.0.5",
+    "acorn-jsx": "^5.0.1",
     "codelyzer": "~4.5.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-angular": "^4.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-typescript": "^0.14.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.0.0",
@@ -45,6 +54,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.6"
+    "typescript": "~3.1.6",
+    "typescript-eslint-parser": "^22.0.0"
   }
 }
